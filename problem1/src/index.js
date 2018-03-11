@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import css from 'main.css';
+//import json from "./data/data.json";
 import { Navbar } from "./component/Navbar";
 import { Content } from "./component/Content";
 
@@ -26,7 +27,8 @@ class App extends React.Component {
       });
   }
 
-  updateTab(key){
+  updateTab(key,e){
+    e.preventDefault();
       this.setState({
         selected : key
       }); 

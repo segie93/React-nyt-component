@@ -3,8 +3,8 @@ import { render } from 'react-dom';
 
 export class Navbar extends React.Component{
 
-    update(key){
-        this.props.updateTab(key);
+    update(key,e){
+        this.props.updateTab(key,e);
     }
 
     render(){
@@ -14,7 +14,7 @@ export class Navbar extends React.Component{
             <div className="navbar">
                 {links.map((name,key)=> {
                     return <a className={curr == key ? "selected" : ""} 
-                     href="#" key={key} onClick={() => this.update(key)}>{name.tab}</a>
+                     href="#" key={key} onClick={(e) => this.update(key,e)}>{name.tab}</a>
                     }
                 )}
             </div>
