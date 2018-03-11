@@ -6,7 +6,6 @@ export class Navbar extends React.Component{
     update(key,e){
         this.props.updateTab(key,e);
     }
-
     render(){
         const links = this.props.data;
         const curr = this.props.currTab;

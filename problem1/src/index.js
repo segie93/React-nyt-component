@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import css from 'main.css';
-//import json from "./data/data.json";
 import { Navbar } from "./component/Navbar";
 import { Content } from "./component/Content";
 
@@ -38,7 +37,7 @@ class App extends React.Component {
       const { data, isLoading, selected } = this.state;
 
       if (isLoading) {
-        return <p>Loading ...</p>;
+        return <p>Loading...</p>;
       }
         return (
           <div className="container">
