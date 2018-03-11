@@ -1,0 +1,123 @@
+{
+	"secret" : [
+		{	
+			"tab": "Real Estates",
+			"section1":{
+				"topic": "International real estate",
+				"title": "House Hunting in London",
+				"description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested in reading.",
+				"image": "../images/house.jpg"	
+			},
+			"section2":{
+				"topic": "Find Properties",
+				"links":[
+					"Go to real estates section",
+					"Search for propertiea",
+                    "Download the real estates App",
+                    "Commercial real estate",
+                    "Video showcase real estates facts",
+                    "Post an Ad"
+				]
+			},
+			"section3":{
+				"image": "../images/house2.jpg"
+			},
+			"section4":{
+				"links":[
+					"NoMads newwest condo",
+                    "3B Apartment 2.2M",
+                    "2B House 3M"
+				],
+				"image": "../images/house2.jpg"
+			}
+		},
+		{	
+			"tab": "Autos",
+			"section1":{
+				"topic": "International Auto Expo",
+				"title": "Auto industry's standard",
+				"description": "It is a long established fact that a reader will be distracted by the readable content of a page in anyway for sure.",
+				"image": "../images/auto.jpg"	
+			},
+			"section2":{
+				"topic": "Find Cars",
+				"links":[
+					"Go to auto section",
+					"Search for cars",
+                    "Download the honda app",
+                    "Commercial auto expo",
+                    "Post an Ad for car"
+				]
+			},
+			"section3":{
+				"image": "../images/auto2.jpg"
+			},
+			"section4":{
+				"links":[
+					"Honda civic $6000",
+                    "Tesla for $30k",
+                    "Dodge for $10k"
+				],
+			"image": "../images/auto2.jpg"
+			}
+		},
+		{	
+			"tab": "Jobs",
+			"section1":{
+				"topic": "Job market",
+				"title": "Current job market...",
+				"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
+				"image": "../images/jobs.jpg"	
+			},
+			"section2":{
+				"topic": "Find jobs",
+				"links":[
+					"Jobs at Zillow group",
+                    "Jobs on LinkedIn",
+                    "Jobs on Indeed",
+                    "Start up Jobs"
+				]
+			},
+			"section3":{
+				"image": "../images/jobs2.jpg"
+			},
+			"section4":{
+				"links":[
+					"Hiring for Front end",
+                    "Current roles",
+                    "Openings"
+				],
+			"image": "../images/jobs2.jpg"
+			}
+		},
+		{	
+			"tab": "All Classified",
+			"section1":{
+				"topic": "Classified documents",
+				"title": "Panama Classified documents",
+				"description": "The generated Lorem Ipsum always free from repetition, injected humour, or non-characteristic words etc.",
+				"image": "../images/secret.jpg"
+			},
+			"section2":{
+				"topic": "Find classified Papers",
+				"links":[
+					"Bermuda Triangle",
+					"Search for Alien",
+                    "Secret of human history",
+                    "Egypt"
+				]
+			},
+			"section3":{
+				"image": "../images/secret2.jpg"
+			},
+			"section4":{
+				"links":[
+					"Secret of Vegas",
+                    "Human History",
+                    "Can I open this"
+				],
+				"image": "../images/secret2.jpg"
+			}
+		}
+	]
+}
